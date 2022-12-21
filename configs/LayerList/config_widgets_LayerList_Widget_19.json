@@ -1,0 +1,192 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "SERV_DRME_YACIMIENTO_9194": {
+      "display": true
+    },
+    "SERV_DRME_YACIMIENTO_9194_0": {
+      "display": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_5528": {
+      "display": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_5528_0": {
+      "display": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_6894": {
+      "display": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_6894_0": {
+      "display": true
+    },
+    "SERV_DGR_MS_POG_8803": {
+      "display": true
+    },
+    "SERV_DGR_MS_POG_8803_0": {
+      "display": true
+    },
+    "SERV_DRME_GEOTERMIA_2842": {
+      "display": true
+    },
+    "SERV_DRME_GEOTERMIA_2842_0": {
+      "display": true
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_6514": {
+      "display": true
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_6514_0": {
+      "display": true
+    },
+    "SERV_DGR_COLUMNA_ESTRATIGRAFICA_402": {
+      "display": true
+    },
+    "SERV_DGR_COLUMNA_ESTRATIGRAFICA_402_0": {
+      "display": true
+    },
+    "SERV_RELAVE_MINERO_2477": {
+      "display": true
+    },
+    "SERV_RELAVE_MINERO_2477_0": {
+      "display": true
+    },
+    "SERV_PEQUENA_MINERIA_8621": {
+      "display": true
+    },
+    "SERV_PEQUENA_MINERIA_8621_0": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_0": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_1": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_2": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_3": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_4": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_5": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_6": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_7": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_8": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_9": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_10": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_11": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_12": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_13": {
+      "display": true
+    },
+    "SERV_DRME_LITOTECA_6308_14": {
+      "display": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_5254": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_2093": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_303": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_6698": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_1376": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_2133": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_7156": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_6013": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_1975": {
+      "display": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_3838": {
+      "display": false
+    },
+    "SERV_DGR_MS_POG_1882": {
+      "display": false
+    },
+    "SERV_DGR_MS_POG_5422": {
+      "display": false
+    },
+    "SERV_DGR_MS_POG_6922": {
+      "display": false
+    },
+    "SERV_DGR_MS_POG_2381": {
+      "display": false
+    },
+    "SERV_DGR_MS_POG_4930": {
+      "display": false
+    },
+    "SERV_DRME_GEOTERMIA_2878": {
+      "display": false
+    },
+    "SERV_DRME_GEOTERMIA_3379": {
+      "display": false
+    },
+    "SERV_DRME_GEOTERMIA_9740": {
+      "display": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_9125": {
+      "display": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_4247": {
+      "display": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_8670": {
+      "display": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_4081": {
+      "display": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_2162": {
+      "display": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_778": {
+      "display": false
+    }
+  }
+}

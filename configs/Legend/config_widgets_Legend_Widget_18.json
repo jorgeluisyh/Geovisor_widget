@@ -1,0 +1,50 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "SERV_DRME_YACIMIENTO_9194": {
+      "selected": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_5528": {
+      "selected": false
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_6894": {
+      "selected": false
+    },
+    "SERV_DGR_MS_POG_8803": {
+      "selected": false
+    },
+    "SERV_DRME_GEOTERMIA_2842": {
+      "selected": false
+    },
+    "SERV_DGAR_FA_FUENTES_AGUA_6514": {
+      "selected": false
+    },
+    "SERV_DGR_COLUMNA_ESTRATIGRAFICA_402": {
+      "selected": false
+    },
+    "SERV_RELAVE_MINERO_2477": {
+      "selected": false
+    },
+    "SERV_PEQUENA_MINERIA_8621": {
+      "selected": false
+    },
+    "SERV_DRME_LITOTECA_6308": {
+      "selected": false
+    },
+    "SERV_DRME_YACIMIENTO_9194_0": {
+      "selected": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_5528_0": {
+      "selected": true
+    },
+    "SERV_DRME_SEDIMENTO_QUEBRADA_6894_0": {
+      "selected": true
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

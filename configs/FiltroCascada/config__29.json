@@ -1,0 +1,302 @@
+{
+  "departamento": {
+    "id": "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5615_0",
+    "label": "NM_DEPA",
+    "value": "CD_DEPA",
+    "labelOptions": [
+      {
+        "label": "OBJECTID",
+        "value": "OBJECTID"
+      },
+      {
+        "label": "NM_DEPA",
+        "value": "NM_DEPA"
+      },
+      {
+        "label": "CD_DEPA",
+        "value": "CD_DEPA"
+      },
+      {
+        "label": "CAP_DEPA",
+        "value": "CAP_DEPA"
+      },
+      {
+        "label": "FEC_ING",
+        "value": "FEC_ING"
+      },
+      {
+        "label": "SHAPE",
+        "value": "SHAPE"
+      },
+      {
+        "label": "GLOBALID",
+        "value": "GLOBALID"
+      },
+      {
+        "label": "SHAPE.AREA",
+        "value": "SHAPE.AREA"
+      },
+      {
+        "label": "SHAPE.LEN",
+        "value": "SHAPE.LEN"
+      }
+    ],
+    "valueOptions": [
+      {
+        "label": "OBJECTID",
+        "value": "OBJECTID"
+      },
+      {
+        "label": "NM_DEPA",
+        "value": "NM_DEPA"
+      },
+      {
+        "label": "CD_DEPA",
+        "value": "CD_DEPA"
+      },
+      {
+        "label": "CAP_DEPA",
+        "value": "CAP_DEPA"
+      },
+      {
+        "label": "FEC_ING",
+        "value": "FEC_ING"
+      },
+      {
+        "label": "SHAPE",
+        "value": "SHAPE"
+      },
+      {
+        "label": "GLOBALID",
+        "value": "GLOBALID"
+      },
+      {
+        "label": "SHAPE.AREA",
+        "value": "SHAPE.AREA"
+      },
+      {
+        "label": "SHAPE.LEN",
+        "value": "SHAPE.LEN"
+      }
+    ]
+  },
+  "provincia": {
+    "id": "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5615_1",
+    "label": "NM_PROV",
+    "value": "CD_PROV",
+    "labelOptions": [
+      {
+        "label": "OBJECTID",
+        "value": "OBJECTID"
+      },
+      {
+        "label": "CD_PROV",
+        "value": "CD_PROV"
+      },
+      {
+        "label": "CD_DEPA",
+        "value": "CD_DEPA"
+      },
+      {
+        "label": "NM_PROV",
+        "value": "NM_PROV"
+      },
+      {
+        "label": "NM_DEPA",
+        "value": "NM_DEPA"
+      },
+      {
+        "label": "FEC_ING",
+        "value": "FEC_ING"
+      },
+      {
+        "label": "SHAPE",
+        "value": "SHAPE"
+      },
+      {
+        "label": "GLOBALID",
+        "value": "GLOBALID"
+      },
+      {
+        "label": "SHAPE.AREA",
+        "value": "SHAPE.AREA"
+      },
+      {
+        "label": "SHAPE.LEN",
+        "value": "SHAPE.LEN"
+      }
+    ],
+    "valueOptions": [
+      {
+        "label": "OBJECTID",
+        "value": "OBJECTID"
+      },
+      {
+        "label": "CD_PROV",
+        "value": "CD_PROV"
+      },
+      {
+        "label": "CD_DEPA",
+        "value": "CD_DEPA"
+      },
+      {
+        "label": "NM_PROV",
+        "value": "NM_PROV"
+      },
+      {
+        "label": "NM_DEPA",
+        "value": "NM_DEPA"
+      },
+      {
+        "label": "FEC_ING",
+        "value": "FEC_ING"
+      },
+      {
+        "label": "SHAPE",
+        "value": "SHAPE"
+      },
+      {
+        "label": "GLOBALID",
+        "value": "GLOBALID"
+      },
+      {
+        "label": "SHAPE.AREA",
+        "value": "SHAPE.AREA"
+      },
+      {
+        "label": "SHAPE.LEN",
+        "value": "SHAPE.LEN"
+      }
+    ]
+  },
+  "distrito": {
+    "id": "SERV_CARTOGRAFIA_DEMARCACION_WGS84_5615_2",
+    "label": "NM_DIST",
+    "value": "CD_DIST",
+    "labelOptions": [
+      {
+        "label": "OBJECTID",
+        "value": "OBJECTID"
+      },
+      {
+        "label": "CD_DIST",
+        "value": "CD_DIST"
+      },
+      {
+        "label": "NM_DIST",
+        "value": "NM_DIST"
+      },
+      {
+        "label": "NM_PROV",
+        "value": "NM_PROV"
+      },
+      {
+        "label": "NM_DEPA",
+        "value": "NM_DEPA"
+      },
+      {
+        "label": "REG_NAT",
+        "value": "REG_NAT"
+      },
+      {
+        "label": "CAP_DIST",
+        "value": "CAP_DIST"
+      },
+      {
+        "label": "CD_PROV",
+        "value": "CD_PROV"
+      },
+      {
+        "label": "CD_DEPA",
+        "value": "CD_DEPA"
+      },
+      {
+        "label": "FEC_ING",
+        "value": "FEC_ING"
+      },
+      {
+        "label": "FUENTE",
+        "value": "FUENTE"
+      },
+      {
+        "label": "SHAPE",
+        "value": "SHAPE"
+      },
+      {
+        "label": "GLOBALID",
+        "value": "GLOBALID"
+      },
+      {
+        "label": "SHAPE.AREA",
+        "value": "SHAPE.AREA"
+      },
+      {
+        "label": "SHAPE.LEN",
+        "value": "SHAPE.LEN"
+      }
+    ],
+    "valueOptions": [
+      {
+        "label": "OBJECTID",
+        "value": "OBJECTID"
+      },
+      {
+        "label": "CD_DIST",
+        "value": "CD_DIST"
+      },
+      {
+        "label": "NM_DIST",
+        "value": "NM_DIST"
+      },
+      {
+        "label": "NM_PROV",
+        "value": "NM_PROV"
+      },
+      {
+        "label": "NM_DEPA",
+        "value": "NM_DEPA"
+      },
+      {
+        "label": "REG_NAT",
+        "value": "REG_NAT"
+      },
+      {
+        "label": "CAP_DIST",
+        "value": "CAP_DIST"
+      },
+      {
+        "label": "CD_PROV",
+        "value": "CD_PROV"
+      },
+      {
+        "label": "CD_DEPA",
+        "value": "CD_DEPA"
+      },
+      {
+        "label": "FEC_ING",
+        "value": "FEC_ING"
+      },
+      {
+        "label": "FUENTE",
+        "value": "FUENTE"
+      },
+      {
+        "label": "SHAPE",
+        "value": "SHAPE"
+      },
+      {
+        "label": "GLOBALID",
+        "value": "GLOBALID"
+      },
+      {
+        "label": "SHAPE.AREA",
+        "value": "SHAPE.AREA"
+      },
+      {
+        "label": "SHAPE.LEN",
+        "value": "SHAPE.LEN"
+      }
+    ]
+  },
+  "features": {}
+}

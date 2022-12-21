@@ -1,0 +1,25 @@
+{
+  "serviceUrl": "https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer",
+  "departamento": {
+    "id": "",
+    "label": "",
+    "value": "",
+    "labelOptions":[],
+    "valueOptions":[]
+  },
+  "provincia": {
+    "id": "",
+    "label": "",
+    "value": "",
+    "labelOptions":[],
+    "valueOptions":[]
+  },
+  "distrito": {
+    "id": "",
+    "label": "",
+    "value": "",
+    "labelOptions":[],
+    "valueOptions":[]
+  }
+  
+}
