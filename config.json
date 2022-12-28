@@ -116,26 +116,29 @@
       },
       {
         "position": {
+          "right": 60,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_27",
+        "name": "BasemapGallery",
+        "version": "2.26",
+        "closeable": true,
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config__27.json"
+      },
+      {
+        "position": {
           "right": 110,
           "top": 10,
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_27"
-      },
-      {
-        "position": {
-          "right": 60,
-          "top": 10,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 2,
         "id": "_28",
         "version": "2.26",
         "closeable": true,
-        "uri": "widgets/Filter/Widget",
-        "name": "Filter",
-        "config": "configs/Filter/config__28.json"
+        "uri": ""
       },
       {
         "position": {

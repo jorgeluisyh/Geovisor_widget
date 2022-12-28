@@ -20,7 +20,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dijit/_WidgetsInTemplateMixin'
       _idDepa = this.config.departamento.id;
       _fieldCodDepa = this.config.departamento.value;
       _fieldNomDepa = this.config.departamento.label;
-      clause = "1=1";
+      clause = _fieldCodDepa + ' <> \'99\'';
       _clauseTransversal = "";
 
       _idProv = this.config.provincia.id;
@@ -33,6 +33,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dijit/_WidgetsInTemplateMixin'
 
       _layerInfosObjClone = [];
       _codFilter = null;
+      _layerid = '0';
       debugger;
 
       LayerInfos.getInstance(this.map, this.map.itemInfo).then(lang.hitch(this, function (layerInfosObj) {
@@ -41,7 +42,25 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dijit/_WidgetsInTemplateMixin'
         // this.gf._turnLayers(infos, true);
       }));
 
+      this._popLayers();
+
       this._filterOptions(_idDepa, null, clause, _fieldCodDepa, _fieldNomDepa, self.depaSelectAttachPoint);
+    },
+    _popLayers: function _popLayers() {
+      var options = [];
+      var features = this.config.features;
+
+      for (var i in features) {
+        var opt = {
+          label: features[i].title,
+          value: features[i].id
+        };
+        options.push(opt);
+        this.LayerSelectAttachPoint.addOption(opt);
+      }
+    },
+    _filterLayer: function _filterLayer(evt) {
+      _layerid = evt;
     },
     _filterFeatureDepa: function _filterFeatureDepa(evt) {
       debugger;
@@ -118,6 +137,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dijit/_WidgetsInTemplateMixin'
       var queryTask;
       var query;
       var features = this.config.features;
+
       for (var i in features) {
 
         idFeature = features[i].id;
@@ -130,7 +150,20 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dijit/_WidgetsInTemplateMixin'
         // feature.setFilter(clause);
         // feature.show();
         clause = _codFilter ? clause : "1 = 1";
-        feature.setFilter(clause);
+        // feature.setFilter(clause);
+
+        // Agregado para consultar solo la capa seleccionada
+        if (_layerid == '0') {
+          feature.setFilter(clause);
+          this.gf._turnLayers([feature], true);
+        } else {
+          if (_layerid == idFeature) {
+            feature.setFilter(clause);
+            this.gf._turnLayers([feature], true);
+          } else {
+            this.gf._turnLayers([feature], false);
+          }
+        }
       }
 
       this._toggleEnabledForm(true);
@@ -141,6 +174,7 @@ define(['dojo/_base/declare', 'jimu/BaseWidget', 'dijit/_WidgetsInTemplateMixin'
       this.depaSelectAttachPoint.set("disabled", toggle);
       this.provSelectAttachPoint.set("disabled", toggle);
       this.distSelectAttachPoint.set("disabled", toggle);
+      this.LayerSelectAttachPoint.set("disabled", toggle);
     },
     _newFilter: function _newFilter() {
       this._toggleEnabledForm(false);

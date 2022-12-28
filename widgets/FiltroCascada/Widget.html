@@ -1,5 +1,10 @@
 <div>
 	<div class="container">
+		<p>Seleccionar Capa a Filtrar</p>
+		<select id="selLayer" name="Layerselect" class="selectFilter" data-dojo-type='dijit/form/Select' data-dojo-attach-point="LayerSelectAttachPoint" data-dojo-attach-event="onChange: _filterLayer">
+			<option value="0">Todas las capas</option>
+		</select><br>
+		<hr>
 		<p>Departamento</p>
 		<select id="selDep" name="depaselect" class="selectFilter" data-dojo-type='dijit/form/Select' data-dojo-attach-point="depaSelectAttachPoint" data-dojo-attach-event="onChange: _filterFeatureDepa">
 		</select><br>

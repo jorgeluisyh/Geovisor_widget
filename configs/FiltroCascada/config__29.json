@@ -298,5 +298,167 @@
       }
     ]
   },
-  "features": {}
+  "features": {
+    "keyff_1": {
+      "id": "SERV_DRME_YACIMIENTO_9194_0",
+      "iddiv": "divff_1",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_YACIMIENTO/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Yacimientos Mineros"
+    },
+    "keyff_4": {
+      "id": "SERV_DRME_SEDIMENTO_QUEBRADA_6894_0",
+      "iddiv": "divff_4",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_SEDIMENTO_QUEBRADA/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Sedimento de Quebrada"
+    },
+    "keyff_5": {
+      "id": "SERV_DGR_MS_POG_8803_0",
+      "iddiv": "divff_5",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DGR_MS_POG/MapServer/0",
+      "field": "DIST",
+      "title": "POG Morfopedología"
+    },
+    "keyff_7": {
+      "id": "SERV_DRME_GEOTERMIA_2842_0",
+      "iddiv": "divff_7",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_GEOTERMIA/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Geotermia"
+    },
+    "keyff_8": {
+      "id": "SERV_DGAR_FA_FUENTES_AGUA_6514_0",
+      "iddiv": "divff_8",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DGAR_FA_FUENTES_AGUA/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Fuentes de Agua"
+    },
+    "keyff_9": {
+      "id": "SERV_DGR_COLUMNA_ESTRATIGRAFICA_402_0",
+      "iddiv": "divff_9",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DGR_COLUMNA_ESTRATIGRAFICA/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Columna Estratigráfica"
+    },
+    "keyff_10": {
+      "id": "SERV_RELAVE_MINERO_2477_0",
+      "iddiv": "divff_10",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_RELAVE_MINERO/MapServer/0",
+      "field": "DIST",
+      "title": "Geoquimica de Relaves"
+    },
+    "keyff_11": {
+      "id": "SERV_PEQUENA_MINERIA_8621_0",
+      "iddiv": "divff_11",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_PEQUENA_MINERIA/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Pequeña Minería"
+    },
+    "keyff_12": {
+      "id": "SERV_DRME_LITOTECA_6308_0",
+      "iddiv": "divff_12",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/0",
+      "field": "DISTRITO",
+      "title": "Análisis de Espectros de Minerales"
+    },
+    "keyff_13": {
+      "id": "SERV_DRME_LITOTECA_6308_1",
+      "iddiv": "divff_13",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/1",
+      "field": "DISTRITO",
+      "title": "Análisis Mineralógico"
+    },
+    "keyff_14": {
+      "id": "SERV_DRME_LITOTECA_6308_2",
+      "iddiv": "divff_14",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/2",
+      "field": "DISTRITO",
+      "title": "Difracción de Rayos X - Polvo"
+    },
+    "keyff_15": {
+      "id": "SERV_DRME_LITOTECA_6308_3",
+      "iddiv": "divff_15",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/3",
+      "field": "DISTRITO",
+      "title": "Estudio de Inclusiones Fluidas"
+    },
+    "keyff_16": {
+      "id": "SERV_DRME_LITOTECA_6308_4",
+      "iddiv": "divff_16",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/4",
+      "field": "DISTRITO",
+      "title": "Estudio Mineragráfico"
+    },
+    "keyff_17": {
+      "id": "SERV_DRME_LITOTECA_6308_5",
+      "iddiv": "divff_17",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/5",
+      "field": "DISTRITO",
+      "title": "Estudio Mineralógico de Material Suelto"
+    },
+    "keyff_18": {
+      "id": "SERV_DRME_LITOTECA_6308_6",
+      "iddiv": "divff_18",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/6",
+      "field": "DISTRITO",
+      "title": "Estudio Petrográfico"
+    },
+    "keyff_19": {
+      "id": "SERV_DRME_LITOTECA_6308_7",
+      "iddiv": "divff_19",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/7",
+      "field": "DISTRITO",
+      "title": "Estudio Petromineragráfico"
+    },
+    "keyff_20": {
+      "id": "SERV_DRME_LITOTECA_6308_8",
+      "iddiv": "divff_20",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/8",
+      "field": "DISTRITO",
+      "title": "Estudio de Porosidad"
+    },
+    "keyff_21": {
+      "id": "SERV_DRME_LITOTECA_6308_9",
+      "iddiv": "divff_21",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/9",
+      "field": "DISTRITO",
+      "title": "Fluorescencia de Minerales"
+    },
+    "keyff_22": {
+      "id": "SERV_DRME_LITOTECA_6308_10",
+      "iddiv": "divff_22",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/10",
+      "field": "DISTRITO",
+      "title": "Medición de la Radioactividad"
+    },
+    "keyff_23": {
+      "id": "SERV_DRME_LITOTECA_6308_11",
+      "iddiv": "divff_23",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/11",
+      "field": "DISTRITO",
+      "title": "Microscopía de Barrido"
+    },
+    "keyff_24": {
+      "id": "SERV_DRME_LITOTECA_6308_12",
+      "iddiv": "divff_24",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/12",
+      "field": "DISTRITO",
+      "title": "Tinción de Minerales"
+    },
+    "keyff_25": {
+      "id": "SERV_DRME_LITOTECA_6308_13",
+      "iddiv": "divff_25",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/13",
+      "field": "DISTRITO",
+      "title": "Foto Macroscópica"
+    },
+    "keyff_26": {
+      "id": "SERV_DRME_LITOTECA_6308_14",
+      "iddiv": "divff_26",
+      "url": "https://geocatmin.ingemmet.gob.pe/arcgis/rest/services/BDGEOCIENTIFICA/SERV_DRME_LITOTECA/MapServer/14",
+      "field": "DISTRITO",
+      "title": "Foto Microscópica-descripción"
+    }
+  }
 }
